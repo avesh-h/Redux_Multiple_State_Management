@@ -1,0 +1,15 @@
+input.emailInput,
+input.passInput,
+input.passInput:focus,
+input.emailInput:focus{
+    border-color: #ccc;
+    background-color: #fff;
+}
+input.emailInput.invaild {
+    border-color: red;
+    background-color: #f3c9c9;
+}
+input.passInput.invalid{
+    border-color: red;
+    background-color: #f3c9c9;
+}
